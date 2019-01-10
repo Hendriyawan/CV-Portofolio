@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">MyCVAndPortofolio</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tab_title_aboutme">ABOUT ME</string>
+    <string name="tab_title_portofolio">PORTOFOLIO</string>
+    <string name="name">HENDRIYAWAN</string>
+    <string name="who_ami">Freelancer Android Programmer</string>
+    <string name="python">Python</string>
+    <string name="git">Git</string>
+    <string name="bash">Bash</string>
+    <string name="android_studio">Android Studio</string>
+    <string name="skills">Skills</string>
+    <string name="my_facebook">: https://www.fb.com/hendri.glanex</string>
+    <string name="facebook">Facebook </string>
+    <string name="my_phone">: +62 895397938533</string>
+    <string name="whatsapp">Whatsapp </string>
+    <string name="phone">Phone</string>
+    <string name="my_email">: hendrijs44@gmail.com</string>
+    <string name="email">Email </string>
+    <string name="contacts">Contacts</string>
+    <string name="smk_nurul_islam">: SMK Nurul Islam</string>
+    <string name="senior_hight_school">Senior Hight School </string>
+    <string name="mts_nurul_huda_jubang">: MTs Nurul Huda Jubang</string>
+    <string name="junior_hight_school">Junior Hight School </string>
+    <string name="mi_assalafiyah_slatri">: MI Assalafiyah Slatri</string>
+    <string name="primary_school">Primary School </string>
+    <string name="educations">Educations</string>
+    <string name="my_github">: https://github.com/Hendriyawan</string>
+    <string name="github">Github </string>
+    <string name="my_website">: https://gdevnet.blogspot.com</string>
+    <string name="website">Website </string>
+    <string name="single">: Single</string>
+    <string name="marial_status">Marial Status </string>
+    <string name="my_address">: Jl. Sutalila,  Slatri, Larangan, Brebes,  RT 06/04</string>
+    <string name="address">Address </string>
+    <string name="my_birth">: Brebes, 20 Mei 1998</string>
+    <string name="birth">Birth </string>
+    <string name="my_gender">: Male</string>
+    <string name="gender">Gender </string>
+    <string name="my_name">: HENDRIYAWAN</string>
+    <string name="_name">Name </string>
+    <string name="ads_script_parser">Ads Script Parser</string>
+    <string name="konversi_suhu_description">Aplikasi sederhana untuk konversi suhu</string>
+    <string name="convert_your_adsense_script_parser_description">Convert your adsense script parser</string>
+    <string name="konversi_suhu">Konversi Suhu</string>
+    <string name="gnews">GNews</string>
+    <string name="gnews_description">Aplikasi berita sederhana</string>
+    <string name="g_encoder">G-Encoder</string>
+    <string name="g_encoder_description">Android application for conversion text to ascii, binary, hexadecimal and base64</string>
+    <string name="android_library">Android Library</string>
+    <string name="gcolorpicker">GColorPicker</string>
+    <string name="gcolorpicker_description">Simple android library dialog color picker</string>
+    <string name="source_all_portofolio">All portofolio available on Github</string>
+</resources>

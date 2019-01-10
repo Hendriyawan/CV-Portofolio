@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.CVFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/item_margin"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/item_margin">
+
+                        <TextView
+                            style="@style/TextTableRow"
+                            android:text="@string/_name" />
+
+                        <TextView
+                            style="@style/TextTableRow"
+                            android:text="@string/my_name" />
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/item_margin">
+
+                        <TextView
+                            style="@style/TextTableRow"
+                            android:text="@string/gender" />
+
+                        <TextView
+                            style="@style/TextTableRow"
+                            android:text="@string/my_gender" />
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/item_margin">
+
+                        <TextView
+                            style="@style/TextTableRow"
+                            android:text="@string/birth" />
+
+                        <TextView
+                            style="@style/TextTableRow"
+                            android:text="@string/my_birth" />
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/item_margin">
+
+                        <TextView
+                            style="@style/TextTableRow"
+                            android:text="@string/address" />
+
+                        <TextView
+                            style="@style/TextTableRow"
+                            android:text="@string/my_address" />
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/item_margin">
+
+                        <TextView
+                            style="@style/TextTableRow"
+                            android:text="@string/marial_status" />
+
+                        <TextView
+                            style="@style/TextTableRow"
+                            android:text="@string/single" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/item_margin">
+
+                        <TextView
+                            style="@style/TextTableRow"
+                            android:text="@string/website" />
+
+                        <TextView
+                            style="@style/TextTableRow"
+                            android:autoLink="web"
+                            android:linksClickable="true"
+                            android:text="@string/my_website" />
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/item_margin">
+
+                        <TextView
+                            style="@style/TextTableRow"
+                            android:text="@string/github" />
+
+                        <TextView
+                            style="@style/TextTableRow"
+                            android:autoLink="web"
+                            android:linksClickable="true"
+                            android:text="@string/my_github" />
+
+
+                    </TableRow>
+
+                </TableLayout>
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/item_margin"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:drawableLeft="@drawable/ic_school"
+                    android:drawablePadding="@dimen/item_margin"
+                    android:drawableTint="@color/colorAccent"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingTop="@dimen/item_margin"
+                    android:paddingBottom="@dimen/item_margin"
+                    android:text="@string/educations"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textStyle="bold" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/item_margin">
+
+                        <TextView
+                            style="@style/TextTableRow"
+                            android:text="@string/primary_school" />
+
+                        <TextView
+                            style="@style/TextTableRow"
+                            android:text="@string/mi_assalafiyah_slatri" />
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/item_margin">
+
+                        <TextView
+                            style="@style/TextTableRow"
+                            android:text="@string/junior_hight_school" />
+
+                        <TextView
+                            style="@style/TextTableRow"
+                            android:text="@string/mts_nurul_huda_jubang" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/item_margin">
+
+                        <TextView
+                            style="@style/TextTableRow"
+                            android:text="@string/senior_hight_school" />
+
+                        <TextView
+                            style="@style/TextTableRow"
+                            android:text="@string/smk_nurul_islam" />
+
+
+                    </TableRow>
+
+                </TableLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/item_margin"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:drawableLeft="@drawable/ic_contacts"
+                    android:drawablePadding="@dimen/item_margin"
+                    android:drawableTint="@color/colorAccent"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingTop="@dimen/item_margin"
+                    android:paddingBottom="@dimen/item_margin"
+                    android:text="@string/contacts"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textStyle="bold" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/item_margin">
+
+                        <TextView
+                            style="@style/TextTableRow"
+                            android:text="@string/email" />
+
+                        <TextView
+                            style="@style/TextTableRow"
+                            android:autoLink="email"
+                            android:linksClickable="true"
+                            android:text="@string/my_email" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/item_margin">
+
+                        <TextView
+                            style="@style/TextTableRow"
+                            android:text="@string/phone" />
+
+                        <TextView
+                            style="@style/TextTableRow"
+                            android:autoLink="phone"
+                            android:linksClickable="true"
+                            android:text="@string/my_phone" />
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/item_margin">
+
+                        <TextView
+                            style="@style/TextTableRow"
+                            android:text="@string/whatsapp" />
+
+                        <TextView
+                            style="@style/TextTableRow"
+                            android:autoLink="phone"
+                            android:linksClickable="true"
+                            android:text="@string/my_phone" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/item_margin">
+
+                        <TextView
+                            style="@style/TextTableRow"
+                            android:text="@string/facebook" />
+
+                        <TextView
+                            style="@style/TextTableRow"
+                            android:text="@string/my_facebook" />
+
+                    </TableRow>
+
+                </TableLayout>
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/item_margin"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:drawableLeft="@drawable/ic_development_board"
+                    android:drawablePadding="@dimen/item_margin"
+                    android:drawableTint="@color/colorAccent"
+                    android:paddingTop="@dimen/item_margin"
+                    android:paddingBottom="@dimen/item_margin"
+                    android:text="@string/skills"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textStyle="bold" />
+
+                <TextView
+                    style="@style/TextTableRow"
+                    android:text="@string/android_studio" />
+
+                <ProgressBar
+                    style="?android:progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:progress="75"
+                    android:progressTint="@color/progress_green" />
+
+                <TextView
+                    style="@style/TextTableRow"
+                    android:text="@string/bash" />
+
+                <ProgressBar
+                    style="?android:progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:progress="50"
+                    android:progressTint="@color/progress_yellow" />
+
+                <TextView
+                    style="@style/TextTableRow"
+                    android:text="@string/git" />
+
+                <ProgressBar
+                    style="?android:progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:progress="20"
+                    android:progressTint="@color/progress_red" />
+
+                <TextView
+                    style="@style/TextTableRow"
+                    android:text="@string/python" />
+
+                <ProgressBar
+                    style="?android:progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:progress="30"
+                    android:progressTint="@color/progress_yellow" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
